@@ -16,3 +16,8 @@ TBD
 ## http-balancer
 - An alternative to LoadBalancer (TCP) defined in a Service
 - https://cloud.google.com/container-engine/docs/tutorials/http-balancer
+
+## pubsub
+- Cloud Pub/Sub using Service Accounts
+- It is recommended to create a new service account instead of using a default
+- https://cloud.google.com/container-engine/docs/tutorials/authenticating-to-cloud-platform
