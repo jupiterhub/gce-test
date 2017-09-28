@@ -13,4 +13,6 @@ TBD
 - Persistent storage means that the file stored lives even when the container dies
 - https://cloud.google.com/container-engine/docs/tutorials/persistent-disk/
 
-## Additional Resources
+## http-balancer
+- An alternative to LoadBalancer (TCP) defined in a Service
+- https://cloud.google.com/container-engine/docs/tutorials/http-balancer
