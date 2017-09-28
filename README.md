@@ -21,3 +21,9 @@ TBD
 - Cloud Pub/Sub using Service Accounts
 - It is recommended to create a new service account instead of using a default
 - https://cloud.google.com/container-engine/docs/tutorials/authenticating-to-cloud-platform
+
+## domain-test
+- Set domain name for a given static IP using an Ingress (Service is not recommended because it uses TCP)
+- check the ```helloweb-ingress.yaml``` it defines both an Ingress and a Service in 1 file
+- Requires you to have an actual domain to test
+- https://cloud.google.com/container-engine/docs/tutorials/configuring-domain-name-static-ip 
