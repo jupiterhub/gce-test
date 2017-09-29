@@ -32,3 +32,7 @@ TBD
 - Configure different settings for the nodes created by the cluster
 - Node pools, cordon it and then remove. The pods will automatically be relocated at the new pool
 - https://cloud.google.com/container-engine/docs/tutorials/migrating-node-pool
+
+## jenkins-cd
+- Deploying Jenkins container using Compute Image and Disk then mouning to the container
+- https://cloud.google.com/solutions/jenkins-on-container-engine-tutorial
