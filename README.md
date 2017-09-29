@@ -36,3 +36,8 @@ TBD
 ## jenkins-cd
 - Deploying Jenkins container using Compute Image and Disk then mouning to the container
 - https://cloud.google.com/solutions/jenkins-on-container-engine-tutorial
+
+## Continuous Delivery
+- A chart explaining continuous deployment is available at the link below
+- https://cloud.google.com/solutions/continuous-delivery-jenkins-container-engine
+- Skip cleanup. Follow this for Continuous Delivery: https://cloud.google.com/solutions/continuous-delivery-jenkins-container-engine
