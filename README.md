@@ -27,3 +27,8 @@ TBD
 - check the ```helloweb-ingress.yaml``` it defines both an Ingress and a Service in 1 file
 - Requires you to have an actual domain to test
 - https://cloud.google.com/container-engine/docs/tutorials/configuring-domain-name-static-ip 
+
+## node-pool
+- Configure different settings for the nodes created by the cluster
+- Node pools, cordon it and then remove. The pods will automatically be relocated at the new pool
+- https://cloud.google.com/container-engine/docs/tutorials/migrating-node-pool
