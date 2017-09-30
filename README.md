@@ -1,5 +1,9 @@
 # Jupiter's Conclusion
-TBD
+Google cloud platform is very easy to use covering different features from clusters, vm instances, load balancing, dns management, persistent storage, and makes upgrading very easy with Kubernetes integration.
+
+In terms of pricing the cheapest instance is a micro (only free if in US, $4/month) and an n1-standard ($24/month) which has a decent spec. When you start running clusters in containers that is multiplied by the number of nodes you deploy on your cluster
+
+There is also a preemptible instance which terminates after 24hours, with this you can save about 70% of your monthly instance cost. However it is not covered by SLA, and can terminate anytime. Good for batches but not for frontfacing applications
 
 # gce-test
 - Trying out Google Container Engine, deploying using Kubernetes
